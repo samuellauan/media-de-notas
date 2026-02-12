@@ -2,6 +2,8 @@
 
 Projeto desenvolvido com HTML, CSS e JavaScript puro, com o objetivo de praticar manipulação de DOM, arrays de objetos e lógica de programação.
 
+[🔗 Clique aqui para visualizar o projeto](https://samuellauan.github.io/media-de-notas/)
+
 **Funcionalidades**
 
 ✅ Adicionar nome do aluno
