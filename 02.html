@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Média de Notas</title>
+</head>
+<body>
+  <h1>Calcule as médias de notas de uma turma</h1>
+  <p>Digite o nome do aluno e suas notas, depois clique em "Adicionar nota" para calcular a média. Você pode adicionar quantas notas quiser para cada aluno. Para limpar a lista de notas e resultados, clique em "Limpar notas".</p>
+  <div class="cards">
+    <div class="container">
+      <div class="input-container">
+        <input type="text" id="aluno" placeholder="Digite o nome do aluno">  
+        <input type="text" id="nota" placeholder="Digite a nota"> 
+      </div>
+      <div class="buttons">
+        <button id="btnAdicionar">Adicionar nota</button>
+        <button id="btnLimpar">Limpar notas</button>
+      </div>
+    </div>
+    <div id ="media">
+      <h3>Lista</h3>
+      <ul id="listaNotas"></ul>   
+    </div>
+  </div>
+<script src="script.js"></script>
+</body>
+</html>
